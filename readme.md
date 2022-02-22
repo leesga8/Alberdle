@@ -13,8 +13,13 @@
           [link](??) 
 * 5:00 - Review LHTP lesson and set up initial files
 * 6:00 - Work on Readme
-* 6:30 - Work on Capstone
-* 
+* 6:30 - Work on Capstone Proposal
+
+#### Monday, 02/21
+* 7:00 - Work on Capstone Proposal
+
+
+
 
 ## Technologies 
 * JavaScript
