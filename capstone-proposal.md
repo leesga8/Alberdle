@@ -26,6 +26,7 @@ The stretch goals of this project include: allowing the user to select a categor
 
 ## What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
 
-Research from different articles on google and youtube videos for further clarification will be the main sources of information. If time permits, possibly learning basic Tailwind CSS and implementing would be an option.
+Research from different articles on google and youtube videos for further clarification will be the main sources of information. If time permits, possibly learning some Tailwind CSS and implementing would be an option.
 
 ## Is there anything else you'd like your instructor to know?
+I would like to build out the project in React but I am also leaving the option open to write it using vanilla Javascript. Further learning of React will take time and research will have to be done to outline the project.
