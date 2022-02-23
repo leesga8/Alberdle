@@ -7,17 +7,20 @@
 ### Research & Planning Log
 #### Sunday, 02/20
 
-* 3:00 - Research Worlde game source code
-          [link](??) 
-* 4:00 - Research Google and Youtube for similar ideas
-          [link](??) 
-* 5:00 - Review LHTP lesson and set up initial files
-* 6:00 - Work on Readme
-* 6:30 - Work on Capstone Proposal
+* 3:00 - Research Wordle game source code
+          [Website](https://www.nytimes.com/games/wordle/index.html) 
+* 4:00 - Research Google and Youtube for similar ideas 
+          [Youtube](https://www.youtube.com/watch?v=mpby4HiElek&ab_channel=CodewithAniaKub%C3%B3w)
+          [Youtube](https://www.youtube.com/watch?v=PNGgQzw6PQg&ab_channel=CoderCoder)
+          [Article](https://www.codecademy.com/resources/blog/how-to-code-wordle-game-in-javascript/)
+* 6:00 - Review LHTP lesson and set up initial files
+* 7-8 - Work on Readme
 
-#### Monday, 02/21
-* 7:00 - Work on Capstone Proposal
-
+#### Tuesday, 02/22
+* 9:00 - Work on Capstone Proposal
+* 10:00 - Watch another hour of YT video to research key presses
+          [Youtube](https://www.youtube.com/watch?v=PNGgQzw6PQg&ab_channel=CoderCoder)
+* 11:00 - 
 
 
 

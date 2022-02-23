@@ -18,12 +18,14 @@ The MVP of the project will have the basic UI and layout of the game and basic f
 
 ## What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
 
-
+I will be using mainly JavaScript to build the game mechanics. Typing on the keyboard or clicking on the display keyboard will register letters. I can write a function to match the guess to the selected word and produce wins or losses. React could be used to implement the user interface. The game can be structured to have different components like the tiles and keyboard display. For the list of words I will be researching different API's to source the data or having an array of words. 
 
 ## If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
 
+The stretch goals of this project include: allowing the user to select a category which has only relevant words. There can also be a login screen for an account which can keep track of the user's statistics and how many tries it took to solve. 
+
 ## What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
 
+Research from different articles on google and youtube videos for further clarification will be the main sources of information. If time permits, possibly learning basic Tailwind CSS and implementing would be an option.
+
 ## Is there anything else you'd like your instructor to know?
-
-
