@@ -35,7 +35,15 @@
           [dan YT](https://www.youtube.com/watch?v=K77xThbu66A&ab_channel=dan)
           - Organize CapProposal stretch goals section
 7:30-8:30 - Update requirements.md and outline features that will be needed
+8:30-9:30 - Finish last hour of danYT video
 
+8 hours total
+
+-----------------------------------------
+
+#### Saturday, 02/26
+
+ 
 ## Technologies 
 * JavaScript
 * React
