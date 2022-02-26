@@ -1,1 +1,38 @@
-Game Requirements:
+Game Features:
+
+# V.0:
+- provide 5 char words as guesses
+- each guess must be a valid word from the data
+- keyboard can be used and when you press enter,
+  - board 
+    - your guess is submitted and each letter turns into a color
+    - grey - letter doesnt exist in the word
+    - yellow - letter exists in the word but in the wrong position
+    - green - letter exists and is in the correct position
+- after n attempts you lose
+- initial visual state
+  - all rows are empty with borders on empty char
+
+
+# EndGame
+- provide 5 char words as guesses
+- each guess must be a valid word from the data
+- when you press enter,
+  - board 
+    - your last guess is submitted and each letter turns into a color
+    - grey - letter doesnt exist in the word
+    - yellow - letter exists in the word but in the wrong position
+    - green - letter exists and is in the correct position
+  - keyboard
+    - key presses reflect data
+    - bottom row has enter and backspace
+    - when you press enter, each letter animates into colors
+- after n attempts you lose
+- initial visual state
+  - all rows are empty with borders on empty char
+
+# Stretch goals
+- After each game, stats page will appear with total wins/losses or how many attempts it took to solve
+- User can click different color schemes or light/dark mode
+- User can choose from different category of words
+
