@@ -5,8 +5,9 @@
 #### _Six guess to find the right word!_
 
 ### Research & Planning Log
-#### Sunday, 02/20
 
+-----------------------------------------
+#### Sunday, 02/20
 * 3:00 - Research Wordle game source code
           [Website](https://www.nytimes.com/games/wordle/index.html) 
 * 4:00 - Research Google and Youtube for clarification and ideas 
@@ -20,9 +21,12 @@
 * 9:00 - Work on Capstone Proposal
 * 10:00 - Watch YT video to research key presses
           [Youtube](https://www.youtube.com/watch?v=PNGgQzw6PQg&ab_channel=CoderCoder)
-* 11:30-12 - Set up HTML draft  
+* 11:30-12 - Set up HTML draft
+--------------------------------------------------
+4 hours
 
-
+#### Friday, 02/25
+5:30: Start editing capstone proposal
 
 ## Technologies 
 * JavaScript
