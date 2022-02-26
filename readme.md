@@ -22,14 +22,19 @@
 * 10:00 - Watch YT video to research key presses
           [Youtube](https://www.youtube.com/watch?v=PNGgQzw6PQg&ab_channel=CoderCoder)
 * 11:30-12 - Set up HTML draft
---------------------------------------------------
+
 4 hours total
 
+-----------------------------------------
+
+
+
 #### Friday, 02/25
-5:30 - Start editing capstone proposal
-6:30 - Finish editing capstone proposal
-       Continue watching YT links for ideas and general outline
-7:30 - 
+5:30-6:30 - Update Capstone Proposal
+6:30-7:30 - Continue watching YT links for ideas and general outline
+          [dan YT](https://www.youtube.com/watch?v=K77xThbu66A&ab_channel=dan)
+          - Organize CapProposal stretch goals section
+7:30 - Update requirements.md and outline features that will be needed
 8:30 - 
 9:30 - 
 ## Technologies 

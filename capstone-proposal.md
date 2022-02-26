@@ -22,11 +22,16 @@ I will be using mainly JavaScript to build the game mechanics. Typing on the key
 
 ## If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
 
-The stretch goals of this project include: allowing the user to select a category which has only relevant words. There can also be a login screen for an account which can keep track of the user's statistics and how many tries it took to solve. Another stretch goal is to learn Tailwind CSS and style the project with Tailwind.
+Stretch goals: 
+
+  - Allow user to select a category which has only relevant words. 
+  - User authentication to keep track of user's statistics and how many tries it took to solve. 
+  - Learn and implement Tailwind CSS to style project
+  - User can click light/dark mode or different color schemes for game characters
 
 ## What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
 
-Allowing the user to select different categories will be created with javascript logic. Not entirely clear on how to implement authentication but possible avenues to research can be Auth0 or vanilla javascript? If I need a database to store user game data I am thinking of Firestore. Further research will have to be done on Auth0 and Firestore.
+Allowing the user to select different categories could be created with vanilla javascript logic. Further research will need to be done to implement authentication but possible avenues could be Auth0? If I need a database to store user game data I am thinking of using Firestore. I would have to find Tailwind tutorials or videos and learn how to implement into my project. For the light/dark mode and color schemes, vanilla javascript should be enough. 
 
 ## Is there anything else you'd like your instructor to know?
 I would like to build out the project in React but I am also leaving the option open to write it using vanilla Javascript. Further learning of React will take time and research will have to be done to outline the project.
