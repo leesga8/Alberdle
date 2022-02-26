@@ -23,11 +23,15 @@
           [Youtube](https://www.youtube.com/watch?v=PNGgQzw6PQg&ab_channel=CoderCoder)
 * 11:30-12 - Set up HTML draft
 --------------------------------------------------
-4 hours
+4 hours total
 
 #### Friday, 02/25
-5:30: Start editing capstone proposal
-
+5:30 - Start editing capstone proposal
+6:30 - Finish editing capstone proposal
+       Continue watching YT links for ideas and general outline
+7:30 - 
+8:30 - 
+9:30 - 
 ## Technologies 
 * JavaScript
 * React
