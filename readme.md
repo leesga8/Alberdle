@@ -43,7 +43,7 @@
 
 #### Wednesday, 3/02
 * 7:30-8:30 - Research online and review LHTP to refresh webpack and npm 
-
+* 8:30-9:30 - Research SASS. W3Schools, google, youtube
 #### Thursday, 3/03
 
 
