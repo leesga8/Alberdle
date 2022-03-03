@@ -47,7 +47,7 @@
     https://www.youtube.com/watch?v=_a5j7KoflTs&ab_channel=freeCodeCamp.org
 * 9:45-10:30 - Research Javascript key press
     https://developer.mozilla.org/en-US/docs/Web/API/Document/keydown_event
-* 10:30-11:30 - Watch more youtube on sass
+* 10:30-11:30 - Watch more youtube on sass, flexbox
     https://www.youtube.com/watch?v=_a5j7KoflTs&ab_channel=freeCodeCamp.org
 
 #### Thursday, 3/03
