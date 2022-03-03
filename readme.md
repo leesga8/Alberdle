@@ -30,18 +30,24 @@
 
 
 #### Friday, 02/25
-5:30-6:30 - Update Capstone Proposal
-6:30-7:30 - Continue watching YT links for ideas and general outline
+* 5:30-6:30 - Update Capstone Proposal
+* 6:30-7:30 - Continue watching YT links for ideas and general outline
           [dan YT](https://www.youtube.com/watch?v=K77xThbu66A&ab_channel=dan)
           - Organize CapProposal stretch goals section
-7:30-8:30 - Update requirements.md and outline features that will be needed
-8:30-9:30 - Finish last hour of danYT video
+* 7:30-8:30 - Update requirements.md and outline features that will be needed
+* 8:30-9:30 - Finish last hour of danYT video
 
 8 hours total
 
 -----------------------------------------
 
-#### Saturday, 02/26
+#### Wednesday, 3/02
+* 7:30-8:30 - Research online and review LHTP to refresh webpack and npm 
+
+#### Thursday, 3/03
+
+
+#### Friday, 3/04
 
  
 ## Technologies 
