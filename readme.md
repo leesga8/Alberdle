@@ -44,7 +44,11 @@
 #### Wednesday, 3/02
 * 7:30-8:30 - Research online and review LHTP to refresh webpack and npm 
 * 8:30-9:30 - Research SASS. W3Schools, google, youtube
+    https://www.youtube.com/watch?v=_a5j7KoflTs&ab_channel=freeCodeCamp.org
 * 9:45-10:30 - Research Javascript key press
+    https://developer.mozilla.org/en-US/docs/Web/API/Document/keydown_event
+* 10:30-11:30 - Watch more youtube on sass
+    https://www.youtube.com/watch?v=_a5j7KoflTs&ab_channel=freeCodeCamp.org
 
 #### Thursday, 3/03
 
