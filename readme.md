@@ -51,11 +51,8 @@
     https://www.youtube.com/watch?v=_a5j7KoflTs&ab_channel=freeCodeCamp.org
 12 hrs
 
-#### Thursday, 3/03
-
-
 #### Friday, 3/04
-
+3:30: 
  
 ## Technologies 
 * JavaScript
