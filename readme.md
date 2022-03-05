@@ -26,9 +26,6 @@
 4 hours total
 
 -----------------------------------------
-
-
-
 #### Friday, 02/25
 * 5:30-6:30 - Update Capstone Proposal
 * 6:30-7:30 - Continue watching YT links for ideas and general outline
@@ -40,7 +37,6 @@
 8 hours total
 
 -----------------------------------------
-
 #### Wednesday, 3/02
 * 7:30-8:30 - Research online and review LHTP to refresh webpack and npm 
 * 8:30-9:30 - Research SASS. W3Schools, google, youtube
@@ -49,11 +45,18 @@
     https://developer.mozilla.org/en-US/docs/Web/API/Document/keydown_event
 * 10:30-11:30 - Watch more youtube on sass, flexbox
     https://www.youtube.com/watch?v=_a5j7KoflTs&ab_channel=freeCodeCamp.org
+
 12 hrs
 
+-----------------------------------------
 #### Friday, 3/04
-3:30: 
+3:30-4:30 - update req.md and build basic html structure
+4:30-5:30 - research document.querySelector, getelementby, other ways to manipulate html
  
+
+
+----------------------------------------- 
+
 ## Technologies 
 * JavaScript
 * React

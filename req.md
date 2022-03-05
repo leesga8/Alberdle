@@ -13,6 +13,15 @@ Game Features:
 - initial visual state
   - all rows are empty with borders on empty char
 
+# V.01:
+- basic html structure
+  - All divs inside one section "bertle"
+  - title div
+  - Win or Lose message div that appears after the game
+  - 6 row div for each guess
+  - 5 letter divs inside each row for each letter
+- ? keyboard at the bottom? 
+
 
 # EndGame
 - provide 5 char words as guesses
