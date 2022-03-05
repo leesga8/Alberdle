@@ -53,7 +53,7 @@
 * 3:30-4:30 - update req.md and build basic html structure
 * 4:30-5:30 - research document.querySelector, getelementby, other ways to manipulate html
     https://www.w3schools.com/js/js_htmldom_document.asp
-5:30-6:30 - watch udemy and yt about dom manipulation
+5:30-6:30 - watch udemy and yt about dom manipulation 
 
 ----------------------------------------- 
 
