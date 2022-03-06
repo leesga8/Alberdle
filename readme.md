@@ -53,16 +53,24 @@
 * 3:30-4:30 - update req.md and build basic html structure
 * 4:30-5:30 - research document.querySelector, getelementby, other ways to manipulate html
     https://www.w3schools.com/js/js_htmldom_document.asp
-5:30-6:30 - watch udemy and yt about dom manipulation 
+* 5:30-6:30 - watch udemy and yt about dom manipulation 
+15hrs 
 
 ----------------------------------------- 
+#### Saturday, 3/05
+* 8:00-9:00 - 
+* 9:00-10:00 - 
+* 10:00-11:00 - 
+18hrs
+
+-----------------------------------------
 
 ## Technologies 
 * JavaScript
 * React
 
 ## Description
-Bertle is a word-guessing game based on Wordle. The player has a number of attempts to try and guess the correct words. Color hints are given to each letter guessed. Players will be able to log in to their account and keep track of their statistics. 
+Bertle is a word-guessing game based on Wordle. The player has a number of attempts to try and guess the correct words. Color hints are given to each letter guessed. Players will be able to log in to their account and keep track of their statistics.   `````````````````````````````````````````````````````````````````````````````````````````````````````n mk
 
 ## Setup/Installation Requirements
 
