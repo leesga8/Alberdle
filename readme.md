@@ -59,8 +59,8 @@
 ----------------------------------------- 
 #### Saturday, 3/05
 * 8:00-9:30 - update files for css and js, research vh units
-* 9:30-10:00 - brainstorm keyboard display, keypresses
-* 10:00-11:00 - 
+* 9:30-10:30 - brainstorm keyboard display, keypresses
+* 10:30-11:00 - create buttons in javascript 
 18hrs
 
 -----------------------------------------

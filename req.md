@@ -27,7 +27,7 @@ Game Features:
   - QWERTY, backspace, enter
 - array of letters, backspace, and enter?
 - create buttons for each
-- createElement will create button and add click function?
+- createElement foreach button and add click function?
 - javascript key presses?
 
 
