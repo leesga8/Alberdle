@@ -22,6 +22,15 @@ Game Features:
   - 5 letter divs inside each row for each letter
 - ? keyboard at the bottom? 
 
+# V.02:
+- keyboard
+  - QWERTY, backspace, enter
+- array of letters, backspace, and enter?
+- create buttons for each
+- createElement will create button and add click function?
+- javascript key presses?
+
+
 
 # EndGame
 - provide 5 char words as guesses

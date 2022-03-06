@@ -58,8 +58,8 @@
 
 ----------------------------------------- 
 #### Saturday, 3/05
-* 8:00-9:00 - update files for css and js
-* 9:00-10:00 - 
+* 8:00-9:30 - update files for css and js, research vh units
+* 9:30-10:00 - brainstorm keyboard display, keypresses
 * 10:00-11:00 - 
 18hrs
 

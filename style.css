@@ -4,7 +4,26 @@ body {
   font-family: '';
 }
 
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+}
+
 .title {
   text-align: center;
   width: 100%;
+}
+
+.row {
+  width: 20rem;
+  margin-bottom: 2rem;
+}
+
+.letter {
+  width: 32rem;
+  display: flex;
+  flex-wrap: wrap;
 }
