@@ -54,6 +54,7 @@
 * 4:30-5:30 - research document.querySelector, getelementby, other ways to manipulate html
     https://www.w3schools.com/js/js_htmldom_document.asp
 * 5:30-6:30 - watch udemy and yt about dom manipulation 
+
 15hrs 
 
 ----------------------------------------- 
@@ -61,7 +62,12 @@
 * 8:00-9:30 - update files for css and js, research vh units
 * 9:30-10:30 - brainstorm keyboard display, keypresses
 * 10:30-11:00 - create buttons in javascript 
+
 18hrs
+
+-----------------------------------------
+#### Sunday, 3/06  
+* 8:00-9:00 - 
 
 -----------------------------------------
 
