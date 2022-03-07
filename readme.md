@@ -67,7 +67,10 @@
 
 -----------------------------------------
 #### Sunday, 3/06  
-* 8:00-9:00 -   
+* 8:00-9:00 - research event listeners, dom methods
+    https://www.w3schools.com/js/js_htmldom_methods.asp
+    https://www.youtube.com/watch?v=wiozYyXQEVk&ab_channel=DevEd
+* 9:00-10:00 - watching udemy course on event listeners
 
 -----------------------------------------
 
