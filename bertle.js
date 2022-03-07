@@ -32,8 +32,18 @@ const keys = [
   'BACKSPACE',
 ]
 
+const guess = ['', '', '', '', '']
+//6 arrays with 5 letter guesses
+//foreach array create div with id?
+
+function handleClick() {
+  console.log("test")
+}
+
 keys.forEach(element => {
   const buttonKey = document.createElement('button')
   buttonKey.textContent = element
+  buttonKey.setAttribute("id", element)
+  buttonKey.addEventListener('click', handleClick)
   keyboard.append(buttonKey)
 })
