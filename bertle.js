@@ -29,7 +29,7 @@ const letters = [
   "B", 
   "N", 
   "M",
-  'BACKSPACE',
+  'DELETE',
 ]
 
 const rows = [

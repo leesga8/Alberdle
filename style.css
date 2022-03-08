@@ -37,3 +37,12 @@ body {
   color:aliceblue;
   background-color: rgb(34, 12, 77);
 }
+
+.letter button:nth-child(11) {
+  margin-left: 2rem;
+}
+
+.letter button:nth-child(20),
+.letter button:nth-child(28) {
+  width: 4.5rem;
+}
