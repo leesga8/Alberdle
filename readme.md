@@ -76,18 +76,25 @@
 21hrs
 
 -----------------------------------------
+#### Monday, 3/07
+* 8:00-9:00pm - update req.md: brainstorm game board, create arrays and forEach loop
+* 9:00-10:00 - style and position keyboard, nest forEach Loop
+* 10:00-11:00 -  css styles for the game board
 
-3 hrs monday
+24hrs
 
-8 hrs tuesday
-8 hrs wednesday
+-----------------------------------------
+
+6 hrs tuesday
+6 hrs wednesday
+4 hrs thursday
 
 ## Technologies 
 * JavaScript
 * React
 
 ## Description
-Bertle is a word-guessing game based on Wordle. The player has a number of attempts to try and guess the correct words. Color hints are given to each letter guessed. Players will be able to log in to their account and keep track of their statistics.   `````````````````````````````````````````````````````````````````````````````````````````````````````n mk
+Bertle is a word-guessing game based on Wordle. The player has a number of attempts to try and guess the correct words. Color hints are given to each letter guessed. Players will be able to log in to their account and keep track of their statistics.
 
 ## Setup/Installation Requirements
 
