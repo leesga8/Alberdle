@@ -28,7 +28,8 @@ Game Features:
 - array of letters, backspace, and enter?
 - create buttons for each
 - createElement foreach button and add click function?
-  - handleClick() function for keyboard will add the clicked letter as the value in the 5-letter guess. the guess will be an array? Clicked letter will be pushed to guess array? 
+  - handleClick() function for keyboard will add the clicked letter as the value in the 5-letter guess. 
+  - the guess will be an array? Clicked letter will be pushed to guess array? 
 - javascript key presses?
 
 
