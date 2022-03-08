@@ -32,6 +32,15 @@ Game Features:
   - the guess will be an array? Clicked letter will be pushed to guess array? 
 - javascript key presses?
 
+# V.03:
+- Game mechanics:
+  - the game board is a two dimensional array
+  - each array has 5 indexes / letters, and there are 6 arrays / guesses
+  - inside the row div, create 6 divs / rows for each guess
+  - inside each div, create 5 divs for each letter
+    - nested foreach loop each creating an element? 
+
+
 
 
 # EndGame
