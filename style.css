@@ -22,13 +22,13 @@ body {
   margin-bottom: 2rem;
 }
 
-.letter {
+.keyboard {
   width: 35rem;
   display: flex;
   flex-wrap: wrap;
 }
 
-.letter button {
+.keyboard button {
   width: 3rem;
   height: 4rem;
   border-radius: .25rem;
@@ -38,11 +38,24 @@ body {
   background-color: rgb(34, 12, 77);
 }
 
-.letter button:nth-child(11) {
+.keyboard button:nth-child(11) {
   margin-left: 2rem;
 }
 
-.letter button:nth-child(20),
-.letter button:nth-child(28) {
+.keyboard button:nth-child(20),
+.keyboard button:nth-child(28) {
   width: 4.5rem;
+}
+
+.rows div {
+  display: flex;
+}
+
+.rows .letter {
+  width: 4rem; 
+  height: 4rem;
+  display: flex;
+  border: solid black; 
+  box-sizing: border-box;
+  margin: .1rem;
 }

@@ -1,7 +1,7 @@
-const wordRow = document.querySelector('.row')
-const keyboard = document.querySelector('.letter')
+const gameBoard = document.querySelector('.rows')
+const keyboard = document.querySelector('.keyboard')
 
-const letters = [
+const keys = [
   "Q", 
   "W", 
   "E",
@@ -40,28 +40,30 @@ const rows = [
   ['', '', '', '', ''],
   ['', '', '', '', ''],
 ]
-//6 arrays with 5 letter guesses
-//foreach array create div with id?
 
+/*--Word Rows--*/
 rows.forEach((row, index) => {
   const word = document.createElement('div')
   index++;
   word.setAttribute('id', 'row' + index)
-  rows.forEach((letter, letterIndex) => {
+  row.forEach((y, letterIndex) => {
     const x = document.createElement('div')
     letterIndex++;
     x.setAttribute('id', 'row' + index + '-letter' + letterIndex)
+    x.classList.add('letter')
     word.append(x)
-})
- 
-  wordRow.append(word)
+  })
+  //Appends to 2d array 
+  gameBoard.append(word)
 })
 
 function handleClick() {
   console.log("test")
 }
 
-letters.forEach(element => {
+
+/*--Keyboard--*/
+keys.forEach(element => {
   const buttonLetter = document.createElement('button')
   buttonLetter.textContent = element
   buttonLetter.setAttribute("id", element)
