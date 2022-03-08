@@ -39,7 +39,15 @@ Game Features:
   - inside the row div, create 6 divs / rows for each guess
   - inside each div, create 5 divs for each letter
     - nested foreach loop each creating an element? 
+  - add id's and classes when creating elements
 
+# V.04:
+- handleClick() - when letter is clicked, key is added to the correct box:
+  - get the key that is clicked in eventListener
+    - variable for current position for current row and letter
+    - clicked letter will be added to current position
+  - getKey(key)
+    -  get the div's with the id of current position and add content with the letter clicked
 
 
 
