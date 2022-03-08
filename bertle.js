@@ -47,7 +47,12 @@ rows.forEach((row, index) => {
   const word = document.createElement('div')
   index++;
   word.setAttribute('id', 'row' + index)
-
+  rows.forEach((letter, letterIndex) => {
+    const x = document.createElement('div')
+    letterIndex++;
+    x.setAttribute('id', 'row' + index + '-letter' + letterIndex)
+    word.append(x)
+})
  
   wordRow.append(word)
 })
