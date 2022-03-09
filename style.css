@@ -1,7 +1,7 @@
 body {
   background-color:paleturquoise;
   color: black;
-  font-family: '';
+  font-family: 'Lucida Sans';
 }
 
 .board {
@@ -57,5 +57,7 @@ body {
   display: flex;
   border: solid black; 
   box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
   margin: .1rem;
 }

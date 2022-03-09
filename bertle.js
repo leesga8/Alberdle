@@ -1,6 +1,6 @@
 const gameBoard = document.querySelector('.rows');
 const keyboard = document.querySelector('.keyboard');
-const messageDisplay = document.querySelector('.message')
+const messageContainer = document.querySelector('.message')
 
 const keys = [
   "Q",
@@ -107,16 +107,36 @@ const deleteKey = () => {
 
 
 
+
 const enter = () => {
   const guess = rows[currentRow].join('')
   if (currentLetter === 5) {
     console.log(guess)
+    //if the guess is right
     if (answer === guess) {
-      message('WIN');
+      messageBox('WIN');
+      gameOver = true;
+      return;
+    } else {
+      //if the guess is wrong with over 5 chances
+      if (currentRow >= 5) {
+        // gameOver = false;
+        message('Game Over');
+        return;
+      }
+      //if guess if wrong with under 5 chances go to next row
+      if (currentRow < 5) {
+        currentRow++;
+        currentLetter = 0;
+      }
     }
   }
 }
 
-const message = () => {
-
+const messageBox = (element) => {
+  const message = document.createElement('p')
+  message.textContent = element;
+  messageContainer.append(message);
 }
+
+

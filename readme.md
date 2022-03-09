@@ -89,7 +89,7 @@
 * 6:00-7:00 - update handleClick(), adding letters to board
 * 7:00-8:00 - work on handleClick(), get keys in correct position
 * 8:00-9:00 - update deleteKey(), update enter()
-* 9:00-10:00 -
+* 9:00-10:00 - work on enter(), update message()
 * 10:00-11:00 - 
 
 30hrs
