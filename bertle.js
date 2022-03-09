@@ -41,6 +41,9 @@ const rows = [
   ['', '', '', '', ''],
 ]
 
+let currentRow = 0;
+let currentLetter = 0;
+
 /*--Word Rows--*/
 
 rows.forEach((row, index) => { //creates a row div forEach arr in ROWS array.
@@ -59,16 +62,20 @@ rows.forEach((row, index) => { //creates a row div forEach arr in ROWS array.
 })
 
 /*--Keyboard--*/
-keys.forEach(element => {
+keys.forEach(e => {
   const buttonLetter = document.createElement('button')
-  buttonLetter.textContent = element
-  buttonLetter.setAttribute("id", element)
-  buttonLetter.addEventListener('click', handleClick(element))
+  buttonLetter.textContent = e
+  buttonLetter.setAttribute("id", e)
+  buttonLetter.addEventListener('click', () => handleClick(e))
   keyboard.append(buttonLetter)
 })
 
+const handleClick = (e) => {
+  getKey(e)
+}
 
-function handleClick(a) {
-  console.log(a)
+const getKey = (e) => {
+  const box = document.getElementById('row'+currentRow+'-letter'+currentLetter)
+  box.textContent = e
 }
 
