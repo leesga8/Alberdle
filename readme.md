@@ -90,12 +90,18 @@
 * 7:00-8:00 - work on handleClick(), get keys in correct position
 * 8:00-9:00 - update deleteKey(), update enter()
 * 9:00-10:00 - work on enter(), update message()
-* 10:00-11:00 - 
+* 10:00-11:00 - create addColor()
+* 11:00-12:00 - update if statements for addColor()
 
-30hrs
+31hrs
 -----------------------------------------
+#### wWednesday, 3/09
+* 3:00pm
 
 6 hrs wednesday
+
+-----------------------------------------
+
 4 hrs thursday
 
 ## Technologies 
