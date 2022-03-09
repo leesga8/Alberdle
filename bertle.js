@@ -93,6 +93,7 @@ const getKey = (letter) => {
   const box = document.getElementById('row' + currentRow + '-letter' + currentLetter);
   box.textContent = letter;
   rows[currentRow][currentLetter] = letter;
+  box.setAttribute('data', letter)
   currentLetter++;
 }
 
@@ -102,6 +103,7 @@ const deleteKey = () => {
     const box = document.getElementById('row' + currentRow + '-letter' + currentLetter);
     box.textContent = '';
     rows[currentRow][currentLetter] = '';
+    box.setAttribute('data', '');
   }
 }
 
@@ -143,7 +145,15 @@ const createMessage = (element) => {
 
 const addColor = () => {
   const row = document.querySelector('row' + currentRow).childNodes;
-  row.forEach( e => {
-    const letter = tile.
+  row.forEach(e, index => {
+    const letter = e.getAttribute('data')
+
+    if (letter == answer[index]) {
+      e.classList.add('green');
+    } else if(???){
+      e.classList.add('yellow');
+    } else {
+        e.classList.add('grey');
+    }
   })
 }

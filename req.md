@@ -63,6 +63,8 @@ Game Features:
     - if that child equals to the letter, color is green
     - if child is in the answer, color is yellow
     - else child color is grey
+  - add class to change color
+  - 
 
 # EndGame
 - provide 5 char words as guesses
