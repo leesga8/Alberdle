@@ -49,6 +49,10 @@ Game Features:
   - getKey(key)
     -  get the div's with the id of current position and add content with the letter clicked
     - clicked letter has to go into array 2d array in correct position
+  - delete()
+    - if delete is clicked, the current position needs to go back one, and the index goes back to an empty string
+  - enter() 
+     - if enter is clicked, check if it's a complete word, if the guess is correct, call message function? 
 
 
 # EndGame

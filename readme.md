@@ -84,8 +84,17 @@
 24hrs
 
 -----------------------------------------
+#### Tuesday, 3/08
+* 2:00-3:00pm - update req.md: research how to add letters when clickedop
+* 6:00-7:00 - update handleClick(), adding letters to board
+* 7:00-8:00 - work on handleClick(), get keys in correct position
+* 8:00-9:00 - update deleteKey(), update enter()
+* 9:00-10:00 -
+* 10:00-11:00 - 
 
-6 hrs tuesday
+30hrs
+-----------------------------------------
+
 6 hrs wednesday
 4 hrs thursday
 

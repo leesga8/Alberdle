@@ -1,33 +1,34 @@
 const gameBoard = document.querySelector('.rows');
 const keyboard = document.querySelector('.keyboard');
+const messageDisplay = document.querySelector('.message')
 
 const keys = [
-  "Q", 
-  "W", 
+  "Q",
+  "W",
   "E",
   "R",
-  "T", 
-  "Y", 
-  "U", 
+  "T",
+  "Y",
+  "U",
   "I",
-  "O", 
-  "P", 
-  "A", 
-  "S", 
-  "D", 
-  "F", 
-  "G", 
-  "H", 
+  "O",
+  "P",
+  "A",
+  "S",
+  "D",
+  "F",
+  "G",
+  "H",
   "J",
-  "K", 
-  "L", 
+  "K",
+  "L",
   'ENTER',
-  "Z", 
-  "X", 
-  "C", 
-  "V", 
-  "B", 
-  "N", 
+  "Z",
+  "X",
+  "C",
+  "V",
+  "B",
+  "N",
   "M",
   'DELETE',
 ]
@@ -43,6 +44,8 @@ const rows = [
 
 let currentRow = 0;
 let currentLetter = 0;
+let answer = 'SUPER';
+let gameOver = false; 
 
 /*--Word Rows--*/
 
@@ -70,16 +73,19 @@ keys.forEach(letter => {
 
 const handleClick = (letter) => {
   console.log('clicked', letter)
-  if (letter==='DELETE') {
-    console.log('delete')
+  if (letter === 'DELETE') {
+    deleteKey();
+    console.log('rows', rows)
     return
   }
-  if (letter==='ENTER') {
-    console.log('check row')
+  if (letter === 'ENTER') {
+    enter();
     return
   }
   if (currentLetter < 5 && currentRow < 6) {
     getKey(letter);
+    console.log('rows', rows)
+
   }
 }
 
@@ -88,5 +94,29 @@ const getKey = (letter) => {
   box.textContent = letter;
   rows[currentRow][currentLetter] = letter;
   currentLetter++;
-  console.log(rows)
+}
+
+const deleteKey = () => {
+  if (currentLetter > 0) {
+    currentLetter--;
+    const box = document.getElementById('row' + currentRow + '-letter' + currentLetter);
+    box.textContent = '';
+    rows[currentRow][currentLetter] = '';
+  }
+}
+
+
+
+const enter = () => {
+  const guess = rows[currentRow].join('')
+  if (currentLetter === 5) {
+    console.log(guess)
+    if (answer === guess) {
+      message('WIN');
+    }
+  }
+}
+
+const message = () => {
+
 }
