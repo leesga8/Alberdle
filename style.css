@@ -61,3 +61,20 @@ body {
   align-items: center;
   margin: .1rem;
 }
+
+.grey {
+  background-color: grey !important;
+  border: none, !important;
+}
+
+.yellow {
+  background-color: yellow !important;
+  border: none, !important;
+
+}
+
+.green {
+  background-color: green !important;
+  border: none, !important;
+
+}

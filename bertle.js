@@ -113,6 +113,7 @@ const deleteKey = () => {
 const enter = () => {
   const guess = rows[currentRow].join('')
   if (currentLetter === 5) {
+    addColor();
     console.log(guess)
     //if the guess is right game over
     if (answer === guess) {
@@ -144,16 +145,18 @@ const createMessage = (element) => {
 
 
 const addColor = () => {
-  const row = document.querySelector('row' + currentRow).childNodes;
-  row.forEach(e, index => {
-    const letter = e.getAttribute('data')
+  const rowLetters = document.querySelector('#row' + currentRow).childNodes;
+  console.log(rowLetters);
 
-    if (letter == answer[index]) {
-      e.classList.add('green');
-    } else if(???){
-      e.classList.add('yellow');
-    } else {
-        e.classList.add('grey');
-    }
+  rowLetters.forEach((letter, index) => {
+    const dataLetter = letter.getAttribute('data')
+    if (dataLetter == answer[index]) {
+      letter.classList.add('green');
+    } 
+    // else if() {
+    //   letter.classList.add('yellow');
+    // } else {
+    //     letter.classList.add('grey');
+    // }
   })
 }

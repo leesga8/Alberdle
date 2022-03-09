@@ -96,7 +96,7 @@
 31hrs
 -----------------------------------------
 #### wWednesday, 3/09
-* 3:00pm
+* 3:00-4:00 - work on addColor(), green, yellow, grey to board with if statements
 
 6 hrs wednesday
 
