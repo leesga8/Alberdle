@@ -48,7 +48,7 @@ Game Features:
     - clicked letter will be added to current position
   - getKey(key)
     -  get the div's with the id of current position and add content with the letter clicked
-
+    - clicked letter has to go into array 2d array in correct position
 
 
 # EndGame
