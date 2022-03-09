@@ -49,11 +49,20 @@ Game Features:
   - getKey(key)
     -  get the div's with the id of current position and add content with the letter clicked
     - clicked letter has to go into array 2d array in correct position
-  - delete()
-    - if delete is clicked, the current position needs to go back one, and the index goes back to an empty string
-  - enter() 
-     - if enter is clicked, check if it's a complete word, if the guess is correct, call message function? 
+- delete()
+  - if delete is clicked, the current position needs to go back one, and the index goes back to an empty string
+- enter() 
+    - if enter is clicked, check if it's a complete word, call message function for win or lose? 
+    - go to next row if guess is wrong
+- createMessage()
+  - creates a p message with the content of the if statement. 
 
+# V.05:
+- addingColor() for correct/incorrect letters
+  - get all children of the current row
+    - if that child equals to the letter, color is green
+    - if child is in the answer, color is yellow
+    - else child color is grey
 
 # EndGame
 - provide 5 char words as guesses

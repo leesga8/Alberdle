@@ -112,19 +112,19 @@ const enter = () => {
   const guess = rows[currentRow].join('')
   if (currentLetter === 5) {
     console.log(guess)
-    //if the guess is right
+    //if the guess is right game over
     if (answer === guess) {
-      messageBox('WIN');
+      createMessage('WIN');
       gameOver = true;
       return;
     } else {
-      //if the guess is wrong with over 5 chances
+      //if the guess is wrong too many times game over
       if (currentRow >= 5) {
         // gameOver = false;
-        message('Game Over');
+        createMessage('Game Over');
         return;
       }
-      //if guess if wrong with under 5 chances go to next row
+      //if guess if wrong go to next row
       if (currentRow < 5) {
         currentRow++;
         currentLetter = 0;
@@ -133,10 +133,17 @@ const enter = () => {
   }
 }
 
-const messageBox = (element) => {
+const createMessage = (element) => {
   const message = document.createElement('p')
   message.textContent = element;
   messageContainer.append(message);
+  setTimeout(() => messageContainer.removeChild(message), 2000) 
 }
 
 
+const addColor = () => {
+  const row = document.querySelector('row' + currentRow).childNodes;
+  row.forEach( e => {
+    const letter = tile.
+  })
+}
