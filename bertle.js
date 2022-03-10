@@ -107,9 +107,6 @@ const deleteKey = () => {
   }
 }
 
-
-
-
 const enter = () => {
   const guess = rows[currentRow].join('')
   if (currentLetter === 5) {
@@ -150,13 +147,15 @@ const addColor = () => {
 
   rowLetters.forEach((letter, index) => {
     const dataLetter = letter.getAttribute('data')
-    if (dataLetter == answer[index]) {
-      letter.classList.add('green');
-    } 
-    // else if() {
-    //   letter.classList.add('yellow');
-    // } else {
-    //     letter.classList.add('grey');
-    // }
+    setTimeout(()=>{
+      letter.classList.add('turn')
+      if (dataLetter == answer[index]) {
+        letter.classList.add('green');
+      } else if(answer.includes(dataLetter)) {
+        letter.classList.add('yellow');
+      } else {
+        letter.classList.add('grey');
+      }
+    })
   })
 }

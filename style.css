@@ -62,6 +62,22 @@ body {
   margin: .1rem;
 }
 
+.letter .turn {
+  animation: 0.5s linear turning;
+}
+
+@keyframes turning {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+      transform: rotateX(90deg);
+  }
+  100% {
+      transform: rotateX(0deg);
+  }
+}
+
 .grey {
   background-color: grey !important;
   border: none, !important;
