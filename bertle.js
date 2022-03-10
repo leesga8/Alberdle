@@ -180,7 +180,7 @@ const createMessage = (string) => {
   // const message = document.createElement('div')
 
   // message.textContent = element;
-  gameBoard.innerHTML = string;
+  setTimeout(() => gameBoard.innerHTML = string, 2500) ;
   // setTimeout(() => messageContainer.removeChild(message), 2000) 
 }
 
@@ -219,7 +219,6 @@ const addColor = () => {
     }, 300*index)
   })
 }
-
 /*--DARKMODE TOGGLE--*/
 // Select the button
 const btn = document.querySelector(".btn-toggle");
