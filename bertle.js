@@ -45,7 +45,7 @@ const rows = [
 
 let currentRow = 0;
 let currentLetter = 0;
-let words = ['apple', 'brake', 'cashy', 'store', 'speak', 'clone', 'bread']
+let words = ['other', 'about', 'which', 'their', 'every', 'maybe', 'bread']
 let answer = '';
 let gameOver = false; 
 
@@ -227,7 +227,6 @@ const btn = document.querySelector(".btn-toggle");
 btn.addEventListener("click", function() {
   // Then toggle (add/remove) the .dark-theme class to the body
   document.body.classList.toggle("dark-theme");
-  changeColorBox();
 });
 
 // function changeColorBox() {
