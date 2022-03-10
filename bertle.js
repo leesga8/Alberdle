@@ -44,8 +44,16 @@ const rows = [
 
 let currentRow = 0;
 let currentLetter = 0;
-let answer = 'SUPER';
+let words = ['apple', 'brake', 'cashy', 'store', 'speak', 'clone', 'bread']
+let answer = '';
 let gameOver = false; 
+
+const chooseWord = () => {
+  let randomWord = Math.floor(Math.random() * (words.length - 1)) +1;
+  answer = words[randomWord]
+}
+chooseWord();
+console.log(answer)
 
 /*--Word Rows--*/
 
@@ -73,13 +81,11 @@ keys.forEach(letter => {
 
 document.addEventListener('keyup', (e) => {
   let upperKey = e.key.toUpperCase();
-  // console.log('keypress: ' + e.key)
   if (upperKey==='ENTER') {
     enter();
   } else if (upperKey==='BACKSPACE'){
       deleteKey()
   } else if(keys.includes(upperKey)){
-    // console.log(upperKey)
     getKey(upperKey)
   } else {
     upperKey==='';
@@ -95,18 +101,19 @@ const handleClick = (letter) => {
   if (letter === 'ENTER') {
     enter();
     return
-  }
-  if (currentLetter < 5 && currentRow < 6) {
+  } else {
     getKey(letter);
   }
 }
 
 const getKey = (letter) => {
+  if(currentLetter<5 && currentRow<6){
   const box = document.getElementById('row' + currentRow + '-letter' + currentLetter);
   box.textContent = letter;
   rows[currentRow][currentLetter] = letter;
   box.setAttribute('data', letter)
   currentLetter++;
+  }
 }
 
 const deleteKey = () => {
@@ -158,21 +165,31 @@ const addColorToKeyboard = (e, color)=> {
 
 const addColor = () => {
   const rowLetters = document.querySelector('#row' + currentRow).childNodes;
+  let checkAnswer = answer;
+  const guess = [];
 
+  rowLetters.forEach(e => {
+    guess.push({letter: e.getAttribute('data'), color: 'grey'})
+  })
+
+  guess.forEach((e, index)=>{
+    if(e.letter == answer[index]){
+      e.color = 'green';
+      checkAnswer = checkAnswer.replace(e.letter, '');
+    }
+  })
+
+  guess.forEach(e=>{
+    if (checkAnswer.includes(e.letter)) {
+      e.color = 'yellow';
+      checkAnswer = checkAnswer.replace(e.letter,'')
+    }
+  })
   rowLetters.forEach((letter, index) => {
-    const dataLetter = letter.getAttribute('data')
     setTimeout(()=>{
       letter.classList.add('turn')
-      if (dataLetter == answer[index]) {
-        letter.classList.add('green');
-        addColorToKeyboard(dataLetter, 'green')
-      } else if(answer.includes(dataLetter)) {
-        letter.classList.add('yellow');
-        addColorToKeyboard(dataLetter, 'yellow')
-      } else {
-        letter.classList.add('grey');
-        addColorToKeyboard(dataLetter, 'grey')
-      }
+      letter.classList.add(guess[index].color)
+      addColorToKeyboard(guess[index].letter, guess[index].color)
     }, 300*index)
   })
 }
