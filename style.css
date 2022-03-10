@@ -4,6 +4,12 @@ body {
   font-family: 'Lucida Sans';
 }
 
+body.dark-theme {
+  color:paleturquoise;
+  background-color: black;
+  font-family: 'Lucida Sans';
+}
+
 .board {
   display: flex;
   flex-direction: column;

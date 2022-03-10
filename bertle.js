@@ -88,10 +88,8 @@ document.addEventListener('keyup', (e) => {
 
 
 const handleClick = (letter) => {
-  console.log('clicked', letter)
   if (letter === 'DELETE') {
     deleteKey();
-    console.log('rows', rows)
     return
   }
   if (letter === 'ENTER') {
@@ -100,7 +98,6 @@ const handleClick = (letter) => {
   }
   if (currentLetter < 5 && currentRow < 6) {
     getKey(letter);
-    console.log('rows', rows)
   }
 }
 
@@ -126,7 +123,6 @@ const enter = () => {
   const guess = rows[currentRow].join('')
   if (currentLetter === 5) {
     addColor();
-    console.log(guess)
     //if the guess is right game over
     if (answer === guess) {
       createMessage('WIN');
@@ -162,7 +158,6 @@ const addColorToKeyboard = (e, color)=> {
 
 const addColor = () => {
   const rowLetters = document.querySelector('#row' + currentRow).childNodes;
-  console.log(rowLetters);
 
   rowLetters.forEach((letter, index) => {
     const dataLetter = letter.getAttribute('data')
@@ -181,3 +176,20 @@ const addColor = () => {
     }, 300*index)
   })
 }
+
+// /*--DARKMODE TOGGLE--*/
+// // Select the button
+// const btn = document.querySelector(".btn-toggle");
+// // Listen for a click on the button
+// btn.addEventListener("click", function() {
+//   // Then toggle (add/remove) the .dark-theme class to the body
+//   document.body.classList.toggle("dark-theme");
+//   changeColorBox();
+// });
+
+// function changeColorBox() {
+//   const element = getElementbyClass('rows');
+//   console.log(element)
+//   element.classList.add('.dark-mode')
+//   console.log(element)
+// }
