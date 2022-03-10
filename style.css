@@ -62,11 +62,11 @@ body {
   margin: .1rem;
 }
 
-.letter .turn {
-  animation: 0.5s linear turning;
+.letter.turn {
+  animation: 0.5s linear flipping;
 }
 
-@keyframes turning {
+@keyframes flipping {
   0% {
     transform: rotateX(0deg);
   }

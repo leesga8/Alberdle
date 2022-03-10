@@ -73,15 +73,19 @@ keys.forEach(letter => {
 
 document.addEventListener('keyup', (e) => {
   let upperKey = e.key.toUpperCase();
-  console.log('keypress: ' + e.key)
-if (upperKey==='BACKSPACE'){
-    deleteKey()
-} else if (upperKey==='ENTER') {
+  // console.log('keypress: ' + e.key)
+  if (upperKey==='ENTER') {
     enter();
-} else {
-    getKey(upperKey);
-}
+  } else if (upperKey==='BACKSPACE'){
+      deleteKey()
+  } else if(keys.includes(upperKey)){
+    // console.log(upperKey)
+    getKey(upperKey)
+  } else {
+    upperKey==='';
+  }
 });
+
 
 const handleClick = (letter) => {
   console.log('clicked', letter)
@@ -151,6 +155,10 @@ const createMessage = (element) => {
   setTimeout(() => messageContainer.removeChild(message), 2000) 
 }
 
+const addColorToKeyboard = (e, color)=> {
+  const key = document.getElementById(e)
+  key.classList.add(color)
+}
 
 const addColor = () => {
   const rowLetters = document.querySelector('#row' + currentRow).childNodes;
@@ -162,11 +170,14 @@ const addColor = () => {
       letter.classList.add('turn')
       if (dataLetter == answer[index]) {
         letter.classList.add('green');
+        addColorToKeyboard(dataLetter, 'green')
       } else if(answer.includes(dataLetter)) {
         letter.classList.add('yellow');
+        addColorToKeyboard(dataLetter, 'yellow')
       } else {
         letter.classList.add('grey');
+        addColorToKeyboard(dataLetter, 'grey')
       }
-    })
+    }, 300*index)
   })
 }
