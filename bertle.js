@@ -50,7 +50,7 @@ let gameOver = false;
 
 const chooseWord = () => {
   let randomWord = Math.floor(Math.random() * (words.length - 1)) +1;
-  answer = words[randomWord]
+  answer = words[randomWord].toUpperCase();
 }
 chooseWord();
 console.log(answer)

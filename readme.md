@@ -94,19 +94,21 @@
 * 11:00-12:00 - update if statements for addColor()
 
 31hrs
+
 -----------------------------------------
-#### wWednesday, 3/09
+#### Wednesday, 3/09
 * 3:00-4:00 - work on addColor(), green, yellow, grey to board with if statements
 * 4:00-5:00 - research keyframes for animation
 break
 * 6:30-7:30 - work on javascript keypresses
-* 7:30
-* 10:30
-6 hrs wednesday
+* 7:30-8:30 - update keypress and animations
+* 8:30-10:30 - refactor addColor() to remove duplicates, work on choosing random word
+
+37hrs
 
 -----------------------------------------
 
-4 hrs thursday
+3 hrs thursday
 
 ## Technologies 
 * JavaScript
