@@ -97,7 +97,9 @@
 -----------------------------------------
 #### wWednesday, 3/09
 * 3:00-4:00 - work on addColor(), green, yellow, grey to board with if statements
-
+* 4:00-5:00 - research keyframes for animation
+break
+* 6:30-10:30 - 
 6 hrs wednesday
 
 -----------------------------------------
