@@ -22,6 +22,7 @@ body.dark-theme {
 .title {
   text-align: center;
   width: 100%;
+  margin-bottom: 2rem;
 }
 
 .row {
@@ -30,6 +31,7 @@ body.dark-theme {
 }
 
 .keyboard {
+  margin-top: 2rem;
   width: 40rem;
   display: flex;
   flex-wrap: wrap;
@@ -65,8 +67,8 @@ body.dark-theme {
 }
 
 .rows .letter {
-  width: 4rem; 
-  height: 4rem;
+  width: 5rem; 
+  height: 5rem;
   display: flex;
   border: solid rgb(42, 41, 41); 
   border-radius: 1rem;
