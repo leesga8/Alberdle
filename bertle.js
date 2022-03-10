@@ -71,6 +71,18 @@ keys.forEach(letter => {
   keyboard.append(buttonLetter);
 })
 
+document.addEventListener('keyup', (e) => {
+  let upperKey = e.key.toUpperCase();
+  console.log('keypress: ' + e.key)
+if (upperKey==='BACKSPACE'){
+    deleteKey()
+} else if (upperKey==='ENTER') {
+    enter();
+} else {
+    getKey(upperKey);
+}
+});
+
 const handleClick = (letter) => {
   console.log('clicked', letter)
   if (letter === 'DELETE') {
@@ -85,7 +97,6 @@ const handleClick = (letter) => {
   if (currentLetter < 5 && currentRow < 6) {
     getKey(letter);
     console.log('rows', rows)
-
   }
 }
 
