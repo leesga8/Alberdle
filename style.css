@@ -1,7 +1,8 @@
 body {
-  background-color:paleturquoise;
-  color: black;
-  font-family: 'Lucida Sans';
+  background-color: rgb(80, 125, 167);
+  color: white;
+  font-family: 'Josefin Sans';
+  font-size: 1.5rem;
 }
 
 body.dark-theme {
@@ -29,28 +30,34 @@ body.dark-theme {
 }
 
 .keyboard {
-  width: 35rem;
+  width: 40rem;
   display: flex;
   flex-wrap: wrap;
 }
 
 .keyboard button {
+  font-family: 'Josefin Sans';
+  font-size: 1.6rem;
   width: 3rem;
   height: 4rem;
   border-radius: .25rem;
   border: none;
   margin: .25rem;
   color:aliceblue;
-  background-color: rgb(34, 12, 77);
+  background-color: rgb(96, 66, 157);
 }
 
+.keyboard button:nth-child(1) {
+  margin-left: 2.5rem;
+}
 .keyboard button:nth-child(11) {
-  margin-left: 2rem;
+  margin-left: 4.5rem;
 }
 
 .keyboard button:nth-child(20),
 .keyboard button:nth-child(28) {
-  width: 4.5rem;
+  width: 7rem;
+  font-size: 1.4rem;
 }
 
 .rows div {
@@ -61,7 +68,8 @@ body.dark-theme {
   width: 4rem; 
   height: 4rem;
   display: flex;
-  border: solid black; 
+  border: solid rgb(42, 41, 41); 
+  border-radius: 1rem;
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
@@ -85,18 +93,18 @@ body.dark-theme {
 }
 
 .grey {
-  background-color: grey !important;
+  background-color: rgb(128, 128, 128) !important;
   border: none, !important;
 }
 
 .yellow {
-  background-color: yellow !important;
+  background-color: rgb(174, 174, 56) !important;
   border: none, !important;
 
 }
 
 .green {
-  background-color: green !important;
+  background-color: rgb(44, 123, 44) !important;
   border: none, !important;
 
 }
