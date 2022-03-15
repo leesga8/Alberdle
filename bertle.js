@@ -128,11 +128,11 @@ console.log(answer)
 
 const getKey = (letter) => {
   if(currentLetter<5 && currentRow<6){
-  const box = document.getElementById('row' + currentRow + '-letter' + currentLetter);
-  box.textContent = letter;
-  board[currentRow][currentLetter] = letter;
-  box.setAttribute('data', letter)
-  currentLetter++;
+    const box = document.getElementById('row' + currentRow + '-letter' + currentLetter);
+    box.textContent = letter;
+    board[currentRow][currentLetter] = letter;
+    box.setAttribute('data', letter)
+    currentLetter++;
   }
 }
 
