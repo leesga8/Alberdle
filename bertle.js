@@ -1,8 +1,3 @@
-const body = document.body;
-const gameBoard = document.querySelector('.rows');
-const keyboard = document.querySelector('.keyboard');
-const messageContainer = document.querySelector('.message')
-
 const keys = [
   "Q",
   "W",
@@ -34,7 +29,7 @@ const keys = [
   'DELETE',
 ]
 
-const rows = [
+const board = [
   ['', '', '', '', ''],
   ['', '', '', '', ''],
   ['', '', '', '', ''],
@@ -43,15 +38,21 @@ const rows = [
   ['', '', '', '', ''],
 ]
 
+const body = document.body;
+const gameBoard = document.querySelector('.rows');
+const keyboard = document.querySelector('.keyboard');
+const messageContainer = document.querySelector('.message')
+
 let currentRow = 0;
 let currentLetter = 0;
 let words = ['other', 'about', 'which', 'their', 'every', 'maybe', 'bread']
 let answer = '';
 let gameOver = false; 
 
+/*--MODAL--*/
+
 // Get the modal
 var modal = document.getElementById("myModal");
-
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById("myImg");
 var modalImg = document.getElementById("img01");
@@ -61,34 +62,23 @@ img.onclick = function(){
   // modalImg.src = this.src;
   captionText.innerHTML = this.alt;
 }
-
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
-
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
 }
 
-
-
-const chooseWord = () => {
-  let randomWord = Math.floor(Math.random() * (words.length - 1)) +1;
-  answer = words[randomWord].toUpperCase();
-}
-chooseWord();
-console.log(answer)
-
 /*--Word Rows--*/
 
-rows.forEach((row, index) => { //creates a row div forEach arr in ROWS array.
-  const word = document.createElement('div');
-  word.setAttribute('id', 'row' + index) //sets id of div to index #+1
-  row.forEach((y, letterIndex) => { //creates a letter div forEach letter in inner ROW array
-    const x = document.createElement('div');
-    x.setAttribute('id', 'row' + index + '-letter' + letterIndex); //sets id's of div to index
-    x.classList.add('letter'); //add class for styling
-    word.append(x); //add to created word.div
+board.forEach((boardRow, index) => { 
+  const word = document.createElement('div'); //creates a boardRow div forEach arr in board 2D array.
+  word.setAttribute('id', 'row' + index) //sets id of div to index
+  boardRow.forEach((y, letterIndex) => { 
+    const letter = document.createElement('div'); //creates a letter div forEach letter of inner boardRow array
+    letter.setAttribute('id', 'row' + index + '-letter' + letterIndex); //sets id's of div to index
+    letter.classList.add('letter'); //add class for styling
+    word.append(letter); //append to created word.div
   })
   //Appends to 2d array 
   gameBoard.append(word)
@@ -108,14 +98,13 @@ document.addEventListener('keyup', (e) => {
   if (upperKey==='ENTER') {
     enter();
   } else if (upperKey==='BACKSPACE'){
-      deleteKey()
+    deleteKey()
   } else if(keys.includes(upperKey)){
     getKey(upperKey)
   } else {
     upperKey==='';
   }
 });
-
 
 const handleClick = (letter) => {
   if (letter === 'DELETE') {
@@ -130,11 +119,18 @@ const handleClick = (letter) => {
   }
 }
 
+const chooseWord = () => {
+  let randomWord = Math.floor(Math.random() * (words.length - 1)) +1;
+  answer = words[randomWord].toUpperCase();
+}
+chooseWord();
+console.log(answer)
+
 const getKey = (letter) => {
   if(currentLetter<5 && currentRow<6){
   const box = document.getElementById('row' + currentRow + '-letter' + currentLetter);
   box.textContent = letter;
-  rows[currentRow][currentLetter] = letter;
+  board[currentRow][currentLetter] = letter;
   box.setAttribute('data', letter)
   currentLetter++;
   }
@@ -145,13 +141,13 @@ const deleteKey = () => {
     currentLetter--;
     const box = document.getElementById('row' + currentRow + '-letter' + currentLetter);
     box.textContent = '';
-    rows[currentRow][currentLetter] = '';
+    board[currentRow][currentLetter] = '';
     box.setAttribute('data', '');
   }
 }
 
 const enter = () => {
-  const guess = rows[currentRow].join('')
+  const guess = board[currentRow].join('')
   if (currentLetter === 5) {
     addColor();
     //if the guess is right game over
@@ -176,12 +172,7 @@ const enter = () => {
 }
 
 const createMessage = (string) => {
-  // const message = document.createElement('p')
-  // const message = document.createElement('div')
-
-  // message.textContent = element;
   setTimeout(() => gameBoard.innerHTML = string, 2500) ;
-  // setTimeout(() => messageContainer.removeChild(message), 2000) 
 }
 
 const addColorToKeyboard = (e, color)=> {

@@ -63,67 +63,26 @@
 * 9:30-10:30 - brainstorm keyboard display, keypresses
 * 10:30-11:00 - create buttons in javascript 
 
-18hrs
-
------------------------------------------
-#### Sunday, 3/06  
-* 8:00-9:00 - research event listeners, dom methods
-    https://www.w3schools.com/js/js_htmldom_methods.asp
-    https://www.youtube.com/watch?v=wiozYyXQEVk&ab_channel=DevEd
-* 9:00-10:15 - watching udemy course on event listeners
-* 10:15-11:00 - brainstorm handleClick function to add clicked keys to guess
-
-21hrs
-
------------------------------------------
-#### Monday, 3/07
-* 8:00-9:00pm - update req.md: brainstorm game board, create arrays and forEach loop
-* 9:00-10:00 - style and position keyboard, nest forEach Loop
-* 10:00-11:00 -  css styles for the game board
-
-24hrs
-
------------------------------------------
-#### Tuesday, 3/08
-* 2:00-3:00pm - update req.md: research how to add letters when clickedop
-* 6:00-7:00 - update handleClick(), adding letters to board
-* 7:00-8:00 - work on handleClick(), get keys in correct position
-* 8:00-9:00 - update deleteKey(), update enter()
-* 9:00-10:00 - work on enter(), update message()
-* 10:00-11:00 - create addColor()
-* 11:00-12:00 - update if statements for addColor()
-
-31hrs
-
------------------------------------------
-#### Wednesday, 3/09
-* 3:00-4:00 - work on addColor(), green, yellow, grey to board with if statements
-* 4:00-5:00 - research keyframes for animation
-break
-* 6:30-7:30 - work on javascript keypresses
-* 7:30-8:30 - update keypress and animations
-* 8:30-10:30 - refactor addColor() to remove duplicates, work on choosing random word
-
-37hrs
-
------------------------------------------
-
-3 hrs thursday
+18hrs+
 
 ## Technologies 
+* HTML
+* CSS
 * JavaScript
-* React
 
 ## Description
-Bertle is a word-guessing game based on Wordle. The player has a number of attempts to try and guess the correct words. Color hints are given to each letter guessed. Players will be able to log in to their account and keep track of their statistics.
+Bertle is a word-guessing game based on Wordle. Players have a six attempts to try and guess the correct word. Color hints are given according to correct letter position.
 
 ## Setup/Installation Requirements
 
-### Application Setup
+* In terminal, navigate to root folder
+* Run ``git clone https://github.com/leesga8/Alberdle`` to clone the repository.
+* Open project folder in editor
+* Open index.html in your browser
 
 ## Known Bugs
 
-* _No known bugs_
+* _Users can submit invalid words_
 
 ## License
 
